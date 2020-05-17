@@ -28,6 +28,7 @@ class Counter extends Component {
     }
 
     render() {
+        const {count} = this.state
         return (
             <div>
                 <h1>Count = {this.state.count}</h1>
