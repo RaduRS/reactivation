@@ -9,6 +9,7 @@ import FunctionClick from './components/FunctionClicks'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 
 // const youtName = prompt("your name");
 
@@ -16,10 +17,9 @@ class App extends Component{
   render(){
     return (
       <div className="App">
+        <UserGreeting/>
         {/* <EventBind/> */}
-        <ParentComponent/>
-        <ParentComponent/>
-        <ParentComponent/>
+        {/* <ParentComponent/> */}
         {/* <FunctionClick basket={this.changeBasket}/>
         <ClassClick/> */}
         {/* <Greet name="Robert">
