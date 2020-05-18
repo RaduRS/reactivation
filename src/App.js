@@ -11,6 +11,14 @@ import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
+import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline'
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form'
+import Lifecycle from './components/Lifecycle'
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 // const youtName = prompt("your name");
 
@@ -18,7 +26,15 @@ class App extends Component{
   render(){
     return (
       <div className="App">
-        <NameList/>
+        {/* <StyleSheet primary={true}/>
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.succes}>Succes</h1>
+        <Inline/> */}
+        {/* <Form/> */}
+        {/* <Lifecycle/> */}
+        <FragmentDemo/>
+        <Table/>
+        {/* <NameList/> */}
         {/* <UserGreeting/> */}
         {/* <EventBind/> */}
         {/* <ParentComponent/> */}
