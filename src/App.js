@@ -19,6 +19,9 @@ import Form from './components/Form'
 import Lifecycle from './components/Lifecycle'
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComponent from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefDemo from './components/RefDemo';
 
 // const youtName = prompt("your name");
 
@@ -32,8 +35,11 @@ class App extends Component{
         <Inline/> */}
         {/* <Form/> */}
         {/* <Lifecycle/> */}
-        <FragmentDemo/>
-        <Table/>
+        {/* <FragmentDemo/>
+        <Table/> */}
+        {/* <PureComponent/> */}
+        {/* <ParentComp/> */}
+        <RefDemo/>
         {/* <NameList/> */}
         {/* <UserGreeting/> */}
         {/* <EventBind/> */}
