@@ -22,6 +22,12 @@ import Table from './components/Table';
 import PureComponent from './components/PureComp';
 import ParentComp from './components/ParentComp';
 import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundry from './components/ErrorBoundry';
+
 
 // const youtName = prompt("your name");
 
@@ -34,12 +40,25 @@ class App extends Component{
         <h1 className={styles.succes}>Succes</h1>
         <Inline/> */}
         {/* <Form/> */}
+        {/* <FocusInput/> */}
+        {/* <FRParentInput/> */}
+        {/* <PortalDemo/> */}
+        <ErrorBoundry>
+          <Hero heroName='Batman'/>
+        </ErrorBoundry>
+        <ErrorBoundry>
+          <Hero heroName='Superman'/>
+        </ErrorBoundry>
+        <ErrorBoundry>
+          <Hero heroName='Joker'/>
+        </ErrorBoundry>
+
         {/* <Lifecycle/> */}
         {/* <FragmentDemo/>
         <Table/> */}
         {/* <PureComponent/> */}
         {/* <ParentComp/> */}
-        <RefDemo/>
+        {/* <RefDemo/> */}
         {/* <NameList/> */}
         {/* <UserGreeting/> */}
         {/* <EventBind/> */}
