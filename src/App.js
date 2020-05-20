@@ -27,6 +27,8 @@ import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
 import ErrorBoundry from './components/ErrorBoundry';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 
 // const youtName = prompt("your name");
@@ -35,6 +37,8 @@ class App extends Component{
   render(){
     return (
       <div className="App">
+        <ClickCounter name='raduleee'/>
+        <HoverCounter/>
         {/* <StyleSheet primary={true}/>
         <h1 className='error'>Error</h1>
         <h1 className={styles.succes}>Succes</h1>
@@ -43,7 +47,8 @@ class App extends Component{
         {/* <FocusInput/> */}
         {/* <FRParentInput/> */}
         {/* <PortalDemo/> */}
-        <ErrorBoundry>
+
+        {/* <ErrorBoundry>
           <Hero heroName='Batman'/>
         </ErrorBoundry>
         <ErrorBoundry>
@@ -51,7 +56,7 @@ class App extends Component{
         </ErrorBoundry>
         <ErrorBoundry>
           <Hero heroName='Joker'/>
-        </ErrorBoundry>
+        </ErrorBoundry> */}
 
         {/* <Lifecycle/> */}
         {/* <FragmentDemo/>
